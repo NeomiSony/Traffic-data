@@ -21,24 +21,13 @@
         });
 		
 		var trafficLayer = new google.maps.TrafficLayer();
-		var transitLayer = new google.maps.TransitLayer();
-		var bikeLayer = new google.maps.BicyclingLayer();
 		
 		$('#traffic-b').click(function(){
 			trafficLayer.setMap(map);
 			transitLayer.setMap(null);
 			bikeLayer.setMap(null);
 		});
-		$('#transit-b').click(function(){
-			trafficLayer.setMap(null);
-			transitLayer.setMap(map);
-			bikeLayer.setMap(null);
-		});
-		$('#bike-b').click(function(){
-			trafficLayer.setMap(null);
-			transitLayer.setMap(null);
-			bikeLayer.setMap(map);
-		});
+		
 	}
 	  
     </script>
@@ -46,8 +35,6 @@
     async defer></script>
 	
 	<button id="traffic-b">Traffic</button>
-	<button id="transit-b">Transit</button>
-	<button id="bike-b">Bike</button>
 </div>
 </body>
 </html>
