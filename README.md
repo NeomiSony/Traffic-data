@@ -5,7 +5,7 @@ We leverage the Google Java Script Api to obtain the real time traffic condition
 
 ![traffic](trafficlayers.png)
 
-### 2)Controlling the movement of median
+### 2)Controlling the movement of median- open colourdetection.ipynb
 After getting the live traffic data we make use of OpenCV library on Python to zoom into each road and detect the colours of the road. If a red and green are detected on the same road then the median is made to move towards the green side. If both are green or both red then no movement takes place.
 
 ![road](road.png)    ![colours](detectedcolours.png)
