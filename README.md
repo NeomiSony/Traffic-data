@@ -1,6 +1,6 @@
 # IMPLEMENTATION
 ## SOFTWARE- ARTIFICIAL INTELLIGENCE IMPLEMENTATION
-### 1)Detecting Traffic
+### 1)Detecting Traffic- open map.html 
 We leverage the Google Java Script Api to obtain the real time traffic conditions of a certain area which is displayed as traffic layers on google maps. The traffic layer is mainly in three colours-red for heavy traffic, orange/yellow for average and green for low traffic.
 
 ![traffic](trafficlayers.png)
